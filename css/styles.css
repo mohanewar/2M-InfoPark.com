@@ -394,5 +394,50 @@ h1, h2, h3, h4, h5, h6 {
     left: 100%;
   }
 }
+@media (max-width:481px){
+  .give{
+    position: relative;
+    right:30px;
+    padding-left: 40px;
+  }
+  .re{
+    position: relative;
+    right:30px;
+    padding-left: 40px;
+  }
+.mobile-img{
+  width: 20px;
+  position: relative;
+  top: 40px;
+}
+.sec{
+  position: relative;
+  bottom: 40px;
 
+
+}
+}
+@media only screen and (max-width:640px){
+  .mobile-img{
+    display: none;
+    .give{
+      position: relative;
+      right:30px;
+      padding-left: 40px;
+    }
+    .re{
+      position: relative;
+      right:30px;
+      padding-left: 40px;
+    }
+  .mobile-img{
+    width: 20px;
+    position: relative;
+    top: 40px;
+  }
+  .sec{
+    position: relative;
+    bottom: 40px;
+}
+}
 /*************footer End*****************/
